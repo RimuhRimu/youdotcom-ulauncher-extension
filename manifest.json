@@ -1,0 +1,19 @@
+{
+  "required_api_version": "^2.0.0",
+  "name": "youdot extension",
+  "description": "Extension to search in you.com using ulauncher",
+  "developer_name": "RimuhRimu",
+  "icon": "images/icon.svg",
+  "options": {
+    "query_debounce": 0.1
+  },
+  "preferences": [
+    {
+      "id": "demo_kw",
+      "type": "keyword",
+      "name": "you.com extension",
+      "description": "Extension to search in you.com using ulauncher",
+      "default_value": "you"
+    }
+  ]
+}
